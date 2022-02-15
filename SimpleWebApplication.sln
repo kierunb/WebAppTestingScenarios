@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebApplication", "SimpleWebApplication\SimpleWebApplication.csproj", "{A6F5A7F4-7B45-44D0-A30F-AB530C6B5B07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebApplication.UnitTests", "SimpleWebApplication.UnitTests\SimpleWebApplication.UnitTests.csproj", "{7DE91174-D4CD-427C-8C8E-09879F0D56D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebApplication.IntegrationTests", "SimpleWebApplication.IntegrationTests\SimpleWebApplication.IntegrationTests.csproj", "{3DF71ECC-82FC-4F9C-935B-683FEF10B0DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebApplication.SeleniumTests", "SimpleWebApplication.SeleniumTests\SimpleWebApplication.SeleniumTests.csproj", "{03503E01-E9A4-4C7F-90F0-B259DE6E8B51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notes", "notes", "{138D5C3D-594F-44F3-8734-014BED46AB95}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadTests", "LoadTests", "{5A4544C9-D074-44B0-B4E3-4831496E44BE}"
+	ProjectSection(SolutionItems) = preProject
+		LoadTest\basic.js = LoadTest\basic.js
+		LoadTest\k6-run.bat = LoadTest\k6-run.bat
+		LoadTest\single-request.js = LoadTest\single-request.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pictures", "Pictures", "{3A7C6D4D-DE11-45E5-9577-A6C4CE0E2597}"
+	ProjectSection(SolutionItems) = preProject
+		Pictures\playwright-vs-selenium.png = Pictures\playwright-vs-selenium.png
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebApplication.PlaywrightTests", "SimpleWebApplication.PlaywrightTests\SimpleWebApplication.PlaywrightTests.csproj", "{1E49108E-045E-45D0-BF9B-7654BAA17BF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6F5A7F4-7B45-44D0-A30F-AB530C6B5B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F5A7F4-7B45-44D0-A30F-AB530C6B5B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F5A7F4-7B45-44D0-A30F-AB530C6B5B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F5A7F4-7B45-44D0-A30F-AB530C6B5B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE91174-D4CD-427C-8C8E-09879F0D56D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE91174-D4CD-427C-8C8E-09879F0D56D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE91174-D4CD-427C-8C8E-09879F0D56D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE91174-D4CD-427C-8C8E-09879F0D56D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF71ECC-82FC-4F9C-935B-683FEF10B0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF71ECC-82FC-4F9C-935B-683FEF10B0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF71ECC-82FC-4F9C-935B-683FEF10B0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF71ECC-82FC-4F9C-935B-683FEF10B0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03503E01-E9A4-4C7F-90F0-B259DE6E8B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03503E01-E9A4-4C7F-90F0-B259DE6E8B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03503E01-E9A4-4C7F-90F0-B259DE6E8B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03503E01-E9A4-4C7F-90F0-B259DE6E8B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E49108E-045E-45D0-BF9B-7654BAA17BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E49108E-045E-45D0-BF9B-7654BAA17BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E49108E-045E-45D0-BF9B-7654BAA17BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E49108E-045E-45D0-BF9B-7654BAA17BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9254FB0A-162A-402F-B681-BDD6D1EA1F07}
+	EndGlobalSection
+EndGlobal
