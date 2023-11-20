@@ -20,7 +20,7 @@ namespace SimpleWebApplication.SeleniumTests
 
         public void Dispose()
         {
-            if (_driver != null) _driver.Dispose();
+            _driver?.Dispose();
         }
 
         [Fact]

@@ -16,4 +16,4 @@ namespace SimpleWebApplication.PlaywrightTests
             await page.ScreenshotAsync(new PageScreenshotOptions { Path = "screenshot.png" });
         }
     }
-}
+}   

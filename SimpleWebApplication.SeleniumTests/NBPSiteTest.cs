@@ -30,20 +30,19 @@ namespace SimpleWebApplication.SeleniumTests
         {
             driver.Navigate().GoToUrl("https://www.nbp.pl/");
             driver.Manage().Window.Size = new System.Drawing.Size(1817, 1680);
-            driver.FindElement(By.LinkText("Wyszukaj")).Click();
-            driver.FindElement(By.Id("gsc-i-id1")).Click();
+            driver.FindElement(By.Name("phrase")).Click();
             {
-                var element = driver.FindElement(By.CssSelector(".gsc-search-button-v2"));
+                var element = driver.FindElement(By.CssSelector(".d-lg-inline:nth-child(1)"));
                 Actions builder = new Actions(driver);
                 builder.MoveToElement(element).Perform();
             }
-            driver.FindElement(By.Id("gsc-i-id1")).SendKeys("stopy procentowe");
-            driver.FindElement(By.CssSelector(".gsc-search-button-v2")).Click();
             {
                 var element = driver.FindElement(By.TagName("body"));
                 Actions builder = new Actions(driver);
                 builder.MoveToElement(element, 0, 0).Perform();
             }
+            driver.FindElement(By.Name("phrase")).SendKeys("złoto");
+            driver.FindElement(By.CssSelector("#ajaxsearchlite1 .promagnifier svg")).Click();
             Assert.True(true);
         }
     }
