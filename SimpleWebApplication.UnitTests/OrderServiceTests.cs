@@ -12,6 +12,11 @@ namespace SimpleWebApplication.UnitTests
         [Fact]
         public void PlaceOrder_CorrectValues_ReturnCorrectStatus()
         {
+            
+            
+            
+            
+            
             // Arrange
             var orderService = new OrderService();
             var fixture = new Fixture();

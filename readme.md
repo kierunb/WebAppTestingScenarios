@@ -8,6 +8,7 @@
 - Moq:				    https://github.com/Moq/moq4/wiki/Quickstart
 - FakeItEasy            https://fakeiteasy.github.io/
 - JustMockLite		    https://github.com/telerik/JustMockLite
+- NSubstitute           https://nsubstitute.github.io/
 
 - FluentAssertions:	    https://fluentassertions.com/introduction
 - Shouldy               https://docs.shouldly.io/documentation/getting-started

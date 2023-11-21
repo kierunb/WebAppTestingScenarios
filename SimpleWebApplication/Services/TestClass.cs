@@ -8,7 +8,7 @@ namespace SimpleWebApplication.Services
 {
     public class TestClass
     {
-        public int ToTest(string str)
+        public int GetLength(string str)
         {
             return str.Length; 
         }
