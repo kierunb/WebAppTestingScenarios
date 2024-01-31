@@ -18,19 +18,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notes", "notes", "{138D5C3D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadTests", "LoadTests", "{5A4544C9-D074-44B0-B4E3-4831496E44BE}"
 	ProjectSection(SolutionItems) = preProject
+		average-load.js = average-load.js
 		LoadTest\basic.js = LoadTest\basic.js
 		LoadTest\k6-run.bat = LoadTest\k6-run.bat
 		LoadTest\single-request.js = LoadTest\single-request.js
+		LoadTest\post-test.js = LoadTest\post-test.js
+		LoadTest\stress-test.js = LoadTest\stress-test.js
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pictures", "Pictures", "{3A7C6D4D-DE11-45E5-9577-A6C4CE0E2597}"
 	ProjectSection(SolutionItems) = preProject
+		Pictures\load-test-types-overview.png = Pictures\load-test-types-overview.png
 		Pictures\playwright-vs-selenium.png = Pictures\playwright-vs-selenium.png
+		Pictures\software-test-pyramid.png = Pictures\software-test-pyramid.png
+		Pictures\types-of-security-tests.png = Pictures\types-of-security-tests.png
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebApplication.PlaywrightTests", "SimpleWebApplication.PlaywrightTests\SimpleWebApplication.PlaywrightTests.csproj", "{1E49108E-045E-45D0-BF9B-7654BAA17BF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebApplication.PlaywrightTemplateTests", "SimpleWebApplication.PlaywrightTemplateTests\SimpleWebApplication.PlaywrightTemplateTests.csproj", "{09FABDC9-BAD5-4DDE-9941-E39CDA5383F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebApplication.PlaywrightTemplateTests", "SimpleWebApplication.PlaywrightTemplateTests\SimpleWebApplication.PlaywrightTemplateTests.csproj", "{09FABDC9-BAD5-4DDE-9941-E39CDA5383F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
