@@ -24,6 +24,12 @@ Additional:
 E2E:
 - Selenium:			    https://www.toolsqa.com/selenium-c-sharp/
 - Playwright:			https://playwright.dev/dotnet/docs/intro
+- Cypress:              https://www.cypress.io/
+
+API Tests:
+- https://dev.to/m4rri4nne/nunit-and-c-tutorial-to-automate-your-api-tests-from-scratch-24nf
+- https://timdeschryver.dev/blog/how-to-test-your-csharp-web-api#one-off-test-setups
+
 
 ### Visual Studio Add-ons
 - xUnit Code Snippets
@@ -111,6 +117,9 @@ https://github.com/jbogard/Respawn/blob/master/Respawn.DatabaseTests/SqlServerTe
 - Playwright
 	- https://playwright.dev/dotnet/docs/intro
 	- https://playwright.dev/dotnet/docs/trace-viewer
+- Cypress
+	- https://www.cypress.io/
+	- https://docs.cypress.io/guides/overview/why-cypress
 
 ### Load & Stress Testing
 - https://docs.microsoft.com/en-us/aspnet/core/test/load-tests?view=aspnetcore-6.0
@@ -118,9 +127,14 @@ https://github.com/jbogard/Respawn/blob/master/Respawn.DatabaseTests/SqlServerTe
 - https://docs.microsoft.com/en-us/azure/architecture/example-scenario/banking/banking-system-cloud-transformation
 - https://docs.microsoft.com/en-us/azure/architecture/example-scenario/banking/jmeter-load-testing-pipeline-implementation-reference
 
+### Perfromance Tests recommendations
+- https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/performance-test
+
 #### Tools:
 - JMeter
 	- https://jmeter.apache.org/
+- Azure Load Studio
+	- https://azure.microsoft.com/en-us/products/load-testing
 - k6
 	- https://k6.io/docs/
 	- https://k6.io/docs/examples/
@@ -150,3 +164,27 @@ Tools:
 - https://github.com/dotnet-architecture/eShopOnWeb
 - https://github.com/vkhorikov/UnitTestingPPP
 - https://github.com/jbogard/MediatR/tree/master/test
+
+## Security Testing
+- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+- [Threat Modelling](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling)
+- [Threat Modeling Tool](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started)
+- [Awesome Fuzz Testing](https://github.com/secfigo/Awesome-Fuzzing)
+- [Awesome Fuzz Testing](https://github.com/cpuu/awesome-fuzzing)
+- [Payload samples](https://github.com/swisskyrepo/PayloadsAllTheThings)
+- [Dynamic Application Security Testing (DAST) Software](https://www.g2.com/categories/dynamic-application-security-testing-dast)
+- [DevSecOps Tools](https://www.g2.com/categories/devsecops)
+- [Secure DevOps](https://www.microsoft.com/en-us/securityengineering/devsecops)
+- [DevSecOps controls](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/secure/devsecops-controls)
+- [GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security)
+- [Static Application Security Testing (SAST) Software](https://www.g2.com/categories/static-application-security-testing-sast)
+- Ethical Hacking:
+	- [Kali Linux Tools](https://www.kali.org/tools/)
+- Online Tool Sample: https://pentest-tools.com/
+- DAST Tools:
+	- [OWASP ZAP](https://www.zaproxy.org/)
+	- [Burp Suite](https://portswigger.net/burp)
+	- [Netsparker](https://www.netsparker.com/)
+	- [Acunetix](https://www.acunetix.com/)
+	- [Arachni](https://www.arachni-scanner.com/)
+	- [Wapiti](https://wapiti.sourceforge.io/)
