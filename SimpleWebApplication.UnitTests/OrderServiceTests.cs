@@ -12,11 +12,6 @@ namespace SimpleWebApplication.UnitTests
         [Fact]
         public void PlaceOrder_CorrectValues_ReturnCorrectStatus()
         {
-            
-            
-            
-            
-            
             // Arrange
             var orderService = new OrderService();
             var fixture = new Fixture();
@@ -29,6 +24,7 @@ namespace SimpleWebApplication.UnitTests
             Assert.Equal(OrderStatus.OrderPlacedCorrectly, result);
 
         }
+
         [Theory, AutoData]
         public void PlaceOrder_CorrectValues_ReturnCorrectStatus_v2(Order order)
         {
