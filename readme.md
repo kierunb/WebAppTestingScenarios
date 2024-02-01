@@ -188,3 +188,13 @@ Tools:
 	- [Acunetix](https://www.acunetix.com/)
 	- [Arachni](https://www.arachni-scanner.com/)
 	- [Wapiti](https://wapiti.sourceforge.io/)
+
+## Test Automation and CI/CD
+
+- [dotnet test](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-test)
+- [Azure Pipelines and tests](https://learn.microsoft.com/en-us/azure/devops/pipelines/test/review-continuous-test-results-after-build?view=azure-devops)
+- [GitHub Actions for testing](https://github.com/marketplace?category=testing&type=actions)
+- [GitHUb Actions - automating build and tests](https://docs.github.com/en/actions/automating-builds-and-tests)
+- **Architectures**:
+	- [DevSecOps on Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/architecture/guide/devsecops/devsecops-on-aks)
+	- [DevSecOps with a rolling main branching strategy](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-rolling-branch)

@@ -17,7 +17,6 @@ namespace SimpleWebApplication.UnitTests
         public void PlaceOrder_CorrectValues_ReturnCorrectStatus(Order order)
         {
             // Arrange
-
             var mock = new Mock<IOrderRepository>();
             mock.Setup(repo => repo.Save(order)).Returns(true);
 
