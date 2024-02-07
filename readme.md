@@ -32,7 +32,8 @@ API Tests:
 - https://dev.to/m4rri4nne/nunit-and-c-tutorial-to-automate-your-api-tests-from-scratch-24nf
 - https://timdeschryver.dev/blog/how-to-test-your-csharp-web-api#one-off-test-setups
 - **Tools:**
-	- WireMock          https://wiremock.org/
+	- WireMock (Java)   https://wiremock.org/
+	- WireMock.NET      https://github.com/WireMock-Net/WireMock.Net
 
 DB Tests:
 - EF Migrations         https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
