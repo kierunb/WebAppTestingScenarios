@@ -52,6 +52,9 @@ Infrastructure:
 - [Selenium IDE](https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?pli=1)
 - [k6 Browser Recorder](https://chromewebstore.google.com/detail/k6-browser-recorder/phjdhndljphphehjpgbmpocddnnmdbda)
 
+### eBooks:
+- [Unit testing in C#](https://docs.educationsmediagroup.com/unit-testing-csharp/)
+
 ### Best practices:
 - https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
 - https://stackify.com/unit-testing-basics-best-practices/

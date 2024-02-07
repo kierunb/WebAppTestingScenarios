@@ -21,8 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadTests", "LoadTests", "{
 		average-load.js = average-load.js
 		LoadTest\basic.js = LoadTest\basic.js
 		LoadTest\k6-run.bat = LoadTest\k6-run.bat
-		LoadTest\single-request.js = LoadTest\single-request.js
 		LoadTest\post-test.js = LoadTest\post-test.js
+		LoadTest\single-request.js = LoadTest\single-request.js
 		LoadTest\stress-test.js = LoadTest\stress-test.js
 	EndProjectSection
 EndProject
@@ -37,6 +37,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebApplication.PlaywrightTests", "SimpleWebApplication.PlaywrightTests\SimpleWebApplication.PlaywrightTests.csproj", "{1E49108E-045E-45D0-BF9B-7654BAA17BF3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebApplication.PlaywrightTemplateTests", "SimpleWebApplication.PlaywrightTemplateTests\SimpleWebApplication.PlaywrightTemplateTests.csproj", "{09FABDC9-BAD5-4DDE-9941-E39CDA5383F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebApplication.DataTests", "SimpleWebApplication.DataTests\SimpleWebApplication.DataTests.csproj", "{6D6A7145-22B1-41BF-AD19-A280DF46EE1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +70,10 @@ Global
 		{09FABDC9-BAD5-4DDE-9941-E39CDA5383F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09FABDC9-BAD5-4DDE-9941-E39CDA5383F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09FABDC9-BAD5-4DDE-9941-E39CDA5383F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6A7145-22B1-41BF-AD19-A280DF46EE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6A7145-22B1-41BF-AD19-A280DF46EE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6A7145-22B1-41BF-AD19-A280DF46EE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6A7145-22B1-41BF-AD19-A280DF46EE1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
