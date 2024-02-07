@@ -1,6 +1,6 @@
 ## Automated Testing in C# and .NET scenarios knowledge base
 
-### Libraries:
+### Libraries and Tools:
 
 - XUnit:				https://xunit.net/
 - NUnit:				https://nunit.org/
@@ -14,6 +14,8 @@
 - Shouldy               https://docs.shouldly.io/documentation/getting-started
 - AutoFixture:		    https://github.com/AutoFixture/AutoFixture/wiki/Cheat-Sheet
 - MyTested.AspNetCore.Mvc     https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc
+
+- SpecFlow (BDD)        https://specflow.org/
 
 Additional:
 - Bogus:				https://github.com/bchavez/Bogus
@@ -29,7 +31,17 @@ E2E:
 API Tests:
 - https://dev.to/m4rri4nne/nunit-and-c-tutorial-to-automate-your-api-tests-from-scratch-24nf
 - https://timdeschryver.dev/blog/how-to-test-your-csharp-web-api#one-off-test-setups
+- **Tools:**
+	- WireMock          https://wiremock.org/
 
+DB Tests:
+- EF Migrations         https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
+- DbUp                  https://dbup.readthedocs.io/en/latest/
+- Respawn               https://github.com/jbogard/Respawn
+
+Infrastructure:
+- Docker                https://docs.docker.com/
+- TestContainers        https://testcontainers.com/
 
 ### Visual Studio Add-ons
 - xUnit Code Snippets
@@ -37,8 +49,8 @@ API Tests:
 - NCrunch (https://www.ncrunch.net/) - $$$
 
 ### Google Chrome Add-ons
-- Selenium IDE
-- k6 Browser Recorder
+- [Selenium IDE](https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?pli=1)
+- [k6 Browser Recorder](https://chromewebstore.google.com/detail/k6-browser-recorder/phjdhndljphphehjpgbmpocddnnmdbda)
 
 ### Best practices:
 - https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
