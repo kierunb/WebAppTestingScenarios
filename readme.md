@@ -32,7 +32,8 @@ API Tests:
 - https://dev.to/m4rri4nne/nunit-and-c-tutorial-to-automate-your-api-tests-from-scratch-24nf
 - https://timdeschryver.dev/blog/how-to-test-your-csharp-web-api#one-off-test-setups
 - **Tools:**
-	- WireMock          https://wiremock.org/
+	- WireMock (Java)   https://wiremock.org/
+	- WireMock.NET      https://github.com/WireMock-Net/WireMock.Net
 
 DB Tests:
 - EF Migrations         https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
@@ -51,6 +52,9 @@ Infrastructure:
 ### Google Chrome Add-ons
 - [Selenium IDE](https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?pli=1)
 - [k6 Browser Recorder](https://chromewebstore.google.com/detail/k6-browser-recorder/phjdhndljphphehjpgbmpocddnnmdbda)
+
+### eBooks:
+- [Unit testing in C#](https://docs.educationsmediagroup.com/unit-testing-csharp/)
 
 ### Best practices:
 - https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
