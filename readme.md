@@ -34,6 +34,7 @@ API Tests:
 - **Tools:**
 	- WireMock (Java)   https://wiremock.org/
 	- WireMock.NET      https://github.com/WireMock-Net/WireMock.Net
+		- [What is WireMock?](https://github.com/WireMock-Net/WireMock.Net/wiki/What-Is-WireMock.Net)
 
 DB Tests:
 - EF Migrations         https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
@@ -43,6 +44,15 @@ DB Tests:
 Infrastructure:
 - Docker                https://docs.docker.com/
 - TestContainers        https://testcontainers.com/
+	- [ASP.NET Core example](https://dotnet.testcontainers.org/examples/aspnet/)
+
+### Visual Studio Testing features:
+- [Testing tools in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/test/improve-code-quality?view=vs-2022)
+- Test Explorer
+- Test/Live Unit Testing
+- Test/Analyze Code Coverage
+- GitHub Copilot - Generate Tests
+	- [more features](https://docs.github.com/en/copilot/github-copilot-chat/about-github-copilot-chat)
 
 ### Visual Studio Add-ons
 - xUnit Code Snippets
