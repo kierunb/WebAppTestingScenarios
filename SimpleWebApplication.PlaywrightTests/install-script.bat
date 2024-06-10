@@ -1,1 +1,1 @@
-pwsh bin/Debug/net6.0/playwright.ps1 install
+pwsh bin/Debug/net8.0/playwright.ps1 install
