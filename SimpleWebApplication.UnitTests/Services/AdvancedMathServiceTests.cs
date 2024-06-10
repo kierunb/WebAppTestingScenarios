@@ -13,7 +13,7 @@ namespace SimpleWebApplication.Services.Tests
         [Fact()]
         public void VerifyInputTest()
         {
-            Assert.True(false, "This test needs an implementation");
+            Assert.Fail("This test needs an implementation");
         }
     }
 }

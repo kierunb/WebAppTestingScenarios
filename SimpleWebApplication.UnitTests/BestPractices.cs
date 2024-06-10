@@ -19,7 +19,7 @@ namespace SimpleWebApplication.UnitTests
     - Avoid magic strings - Explicitly define constants
     - Avoid logic in tests - no loops, if statements etc.
     - Prefer helper methods to setup and teardown
-    - Avoid multpile acts
+    - Avoid multpile acts (tyey are allowed in some scenarios, though)
     - Validate private methods by unit testing public methods
     - Stub static references
     */
