@@ -33,6 +33,7 @@ namespace SimpleWebApplication.PlaywrightTests
             await page.GetByLabel("Wpisz wartość dla pola Pole kwota pożyczki").ClickAsync();
 
             await page.GetByLabel("Wpisz wartość dla pola Pole kwota pożyczki").ClickAsync();
+            await page.GetByLabel("Wpisz wartość dla pola Pole kwota pożyczki").ClickAsync();
 
             await page.GetByLabel("Wpisz wartość dla pola Pole kwota pożyczki").PressAsync("ArrowRight");
 
